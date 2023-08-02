@@ -6,11 +6,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 fun String.capitalize() : String {
-    if (this.isEmpty()) return this
+    if (this.isBlank()) return this
     if (this.length == 1) return this.uppercase()
-    val first = this.substring(0,1)
-    val second = this.substring(1, this.length)
-    return "${first.uppercase()}$second"
+    return "${this.substring(0,1).uppercase()}${this.substring(1, this.length)}"
 }
 
 fun String.toDate(pattern: String, locale: Locale = Locale.getDefault()) : Date? {
