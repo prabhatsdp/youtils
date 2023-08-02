@@ -11,7 +11,7 @@ import android.view.View
  *
  *
  *   Example of how to use ThrottleClickListener:
- *   ```
+ *   ```kotlin
  *
  *   // Define a click listener lambda function for the button
  *   val clickListener: (View) -> Unit = {
