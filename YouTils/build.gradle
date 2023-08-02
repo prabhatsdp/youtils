@@ -52,9 +52,9 @@ dependencies {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'dev.prabhatpandey.youtils'
+            groupId = 'com.github.prabhatsdp'
             artifactId = 'youtils'
-            version = '1.0.1'
+            version = '1.0.2'
 
             afterEvaluate {
                 from components.release
