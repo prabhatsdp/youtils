@@ -6,4 +6,4 @@
 
 | Name | Summary |
 |---|---|
-| [filterNullValues](filter-null-values.md) | [androidJvm]<br>fun &lt;[K](filter-null-values.md), [V](filter-null-values.md)&gt; [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)&lt;[K](filter-null-values.md), [V](filter-null-values.md)?&gt;.[filterNullValues](filter-null-values.md)(): [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)&lt;[K](filter-null-values.md), [V](filter-null-values.md)?&gt; |
+| [filterNullValues](filter-null-values.md) | [androidJvm]<br>fun &lt;[K](filter-null-values.md), [V](filter-null-values.md)&gt; [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)&lt;[K](filter-null-values.md), [V](filter-null-values.md)?&gt;.[filterNullValues](filter-null-values.md)(): [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)&lt;[K](filter-null-values.md), [V](filter-null-values.md)?&gt;<br>Filters a Map to remove entries with null values. |

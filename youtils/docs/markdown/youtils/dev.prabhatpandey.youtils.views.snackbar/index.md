@@ -6,4 +6,4 @@
 
 | Name | Summary |
 |---|---|
-| [showSnackBar](show-snack-bar.md) | [androidJvm]<br>fun [CoordinatorLayout](https://developer.android.com/reference/kotlin/androidx/coordinatorlayout/widget/CoordinatorLayout.html).[showSnackBar](show-snack-bar.md)(@[StringRes](https://developer.android.com/reference/kotlin/androidx/annotation/StringRes.html)stringResId: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), anchorView: [View](https://developer.android.com/reference/kotlin/android/view/View.html)?) |
+| [showSnackBar](show-snack-bar.md) | [androidJvm]<br>fun [CoordinatorLayout](https://developer.android.com/reference/kotlin/androidx/coordinatorlayout/widget/CoordinatorLayout.html).[showSnackBar](show-snack-bar.md)(@[StringRes](https://developer.android.com/reference/kotlin/androidx/annotation/StringRes.html)stringResId: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), anchorView: [View](https://developer.android.com/reference/kotlin/android/view/View.html)?)<br>Shows a Snackbar with the provided string resource as a message, anchored to an optional view. |
