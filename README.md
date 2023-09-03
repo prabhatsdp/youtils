@@ -69,6 +69,8 @@ class MyActivity : AppCompatActivity() {
     }
 }
 ```
+## Documentation
+You can find the [documentation here](https://github.com/prabhatsdp/youtils/blob/main/youtils/docs/markdown/index.md)
 
 ## Contributions
 Contributions to YouTils are more than welcome! If you find any issues or have suggestions for
