@@ -36,7 +36,7 @@ To use YouTils in your Android project, follow these steps:
 
    ```groovy
    dependencies {
-       implementation 'dev.prabhatpandey:youtils:VERSION'
+       implementation 'com.prabhatpandey:youtils:VERSION'
    }
    ```
 
