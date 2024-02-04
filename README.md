@@ -22,25 +22,28 @@ effort during the development process.
 
 To use YouTils in your Android project, follow these steps:
 
-1. Add the following repository to your project-level `build.gradle` file:
+1. Add the following repository to your `settings.gradle` file:
+    #### `settings.gradle`
 
-   ```groovy
-   allprojects {
-       repositories {
-           maven { url 'https://jitpack.io' }
-       }
-   }
-   ```
+    ```groovy
+    dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+        repositories {
+            google()
+            mavenCentral()
+            maven { url 'https://jitpack.io' } // Add this line
+        }
+    }
+    ```
+
 
 2. Add the dependency to your app-level `build.gradle` file:
 
    ```groovy
    dependencies {
-       implementation 'com.prabhatpandey:youtils:VERSION'
+       implementation 'com.prabhatpandey:youtils:1.1.0'
    }
    ```
-
-Replace  `VERSION` with the desired release tag.
 
 ### Usage
 
@@ -88,4 +91,4 @@ hesitate to reach out to us.
 
 Happy coding!
 
-[Prabhat Pandey](https://prabhatpandey.dev)
+[Prabhat Pandey](https://prabhatpandey.com)
